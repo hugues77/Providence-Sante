@@ -1,0 +1,114 @@
+ .nav1 {
+     border-bottom: 5px solid red;
+     font-weight: bold;
+ }
+ 
+ .nav-link {
+     font-weight: bold;
+ }
+ 
+ .nav-link:hover {
+     border-bottom: 3px solid red;
+ }
+ 
+ .btn-cercle {
+     border-radius: 25%;
+     height: 50px;
+     width: 180px;
+ }
+ /* image entete */
+ 
+ header {
+     background-image: url(../img/surgery.jpg);
+     margin-top: 0px;
+     background-repeat: no-repeat;
+     background-size: cover;
+     min-height: 100vh;
+     position: relative;
+     background-attachment: fixed;
+     clip-path: polygon(0 0, 100% 1%, 100% 100%, 0 90%);
+ }
+ 
+ header .row {
+     min-height: 100vh;
+ }
+ 
+ .form_head {
+     background-color: rgba(0, 0, 0, 0.4);
+     min-height: 100vh;
+ }
+ 
+ .titre {
+     font-weight: bold;
+     font-family: 'Oswald', sans-serif;
+ }
+ 
+ .slogan {
+     font-family: 'Caveat', cursive;
+     font-size: 50px;
+     display: flex;
+     min-height: 100vh;
+     align-items: flex-end;
+     justify-content: flex-end;
+ }
+ 
+ @media(max-width: 768px) {
+     .slogan {
+         display: none;
+     }
+     header {
+         background-image: url(../img/surgery.jpg);
+         margin-top: 0px;
+         background-repeat: no-repeat;
+         background-size: cover;
+         min-height: 100vh;
+         position: relative;
+         background-attachment: fixed;
+         clip-path: polygon(0 0, 100% 1%, 100% 100%, 0 90%);
+     }
+ }
+ 
+ @media(max-width: 768px) {
+     .order {
+         list-style: none;
+     }
+ }
+ 
+ @media(max-width: 768px) {
+     .img_part img {
+         border: 1px solid rgb(245, 64, 64);
+     }
+ }
+ 
+ .guillemet {
+     font-size: 20px;
+ }
+ 
+ p::first-letter {
+     font-size: 25px;
+     font-weight: bold;
+     font-family: 'Oswald', sans-serif;
+ }
+ 
+ .lire {
+     text-decoration: none;
+     color: white;
+ }
+ 
+ .lire:hover {
+     text-decoration: none;
+     color: #ff4444;
+ }
+ 
+ .team {
+     background-image: url(../img/group_infirm.jpg);
+     background-repeat: no-repeat;
+     background-attachment: fixed;
+     min-height: 70vh;
+     position: relative;
+     background-size: cover;
+ }
+ 
+ .btn-rond {
+     border-radius: 30px;
+ }
