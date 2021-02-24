@@ -15,6 +15,8 @@
      border-radius: 25%;
      height: 50px;
      width: 180px;
+     text-align: center;
+     margin-top: 10px;
  }
  /* image entete */
  
@@ -26,7 +28,7 @@
      min-height: 100vh;
      position: relative;
      background-attachment: fixed;
-     clip-path: polygon(0 0, 100% 1%, 100% 100%, 0 90%);
+     /*clip-path: polygon(0 0, 100% 1%, 100% 100%, 0 90%); */
  }
  
  header .row {
@@ -37,10 +39,24 @@
      background-color: rgba(0, 0, 0, 0.4);
      min-height: 100vh;
  }
+
+ .form-login{
+    margin-top: 10%;
+    margin-bottom: 10px;
+}
+.form-login1{
+    margin-top: 7%;
+    margin-bottom: 10px;
+}
  
  .titre {
      font-weight: bold;
      font-family: 'Oswald', sans-serif;
+    
+ }
+
+ .diapo_titre{
+     margin-top: 45px;
  }
  
  .slogan {
@@ -51,6 +67,31 @@
      align-items: flex-end;
      justify-content: flex-end;
  }
+
+ /* CSS contact*/
+.titre-contact{
+    margin-top: 100px;
+}
+  /* Fin CSS contact*/
+
+/* barre verticale - page reglages*/
+.barre-vertical{
+    border-left: 7px solid rgb(241, 135, 135);
+    height: 220px;
+    }
+/* fin  barre verticale - page reglages*/
+
+  /*CSS header - Menu*/
+  .icon-align{
+    margin-left: 23%;
+    position: right;
+  }
+  .icon-align-profil{
+    margin-left: 30%;
+    position: right;
+  }
+  
+  /*CSS header - Menu*/
  
  @media(max-width: 768px) {
      .slogan {
@@ -108,7 +149,19 @@
      position: relative;
      background-size: cover;
  }
+
  
  .btn-rond {
      border-radius: 30px;
+     padding-left: 50px;
+     padding-right: 50px;
+     margin-bottom: 20px;
  }
+ .team-align-g{
+     position: left;
+     margin-left: 30%;
+ }
+ .team-align-d{
+    position: right;
+    margin-left: 30%;
+}
